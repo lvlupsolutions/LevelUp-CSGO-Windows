@@ -5,8 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LevelUp_CSGO_Windows"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Level Up CS:GO" Height="720" Width="1280">
     <Grid>
-        
+        <Image Margin="-6,0,0.286,-28.571" Source="BG.png" Stretch="Fill"/>
+        <Image Margin="242,-5,242,-28.571" Source="green-bg.png" Stretch="Fill"/>
+        <Image Margin="525,10,501,468.429" Source="white-levelup-logo.png" Stretch="Fill"/>
+        <Label Content="Login:" HorizontalAlignment="Left" Margin="525,358,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="25" TextWrapping="Wrap" VerticalAlignment="Top" Width="233" Margin="525,389,0,0"/>
+        <Label Content="Password:" HorizontalAlignment="Left" Margin="525,438,0,0" VerticalAlignment="Top"/>
+        <PasswordBox HorizontalAlignment="Left" Margin="525,471,0,0" VerticalAlignment="Top" Height="25" Width="233"/>
+        <Button Content="Login" HorizontalAlignment="Left" Margin="525,539,0,0" VerticalAlignment="Top" Width="233" Click="Button_Click"/>
+
     </Grid>
 </Window>
