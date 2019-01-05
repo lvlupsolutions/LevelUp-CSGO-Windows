@@ -7,9 +7,9 @@
         mc:Ignorable="d"
         Title="Level Up CS:GO" Height="720" Width="1280">
     <Grid>
-        <Image Margin="-6,0,0.286,-28.571" Source="BG.png" Stretch="Fill"/>
-        <Image Margin="242,-5,242,-28.571" Source="green-bg.png" Stretch="Fill"/>
-        <Image Margin="525,10,501,468.429" Source="white-levelup-logo.png" Stretch="Fill"/>
+        <Image Margin="-6,0,0.286,0.429" Source="BG.png" Stretch="Fill"/>
+        <Image Margin="242,-5,242.286,0.429" Source="green-bg.png" Stretch="Fill"/>
+        <Image Margin="530,10,501.286,468.429" Source="white-levelup-logo.png" Stretch="Fill"/>
         <Label Content="Login:" HorizontalAlignment="Left" Margin="525,358,0,0" VerticalAlignment="Top"/>
         <TextBox HorizontalAlignment="Left" Height="25" TextWrapping="Wrap" VerticalAlignment="Top" Width="233" Margin="525,389,0,0"/>
         <Label Content="Password:" HorizontalAlignment="Left" Margin="525,438,0,0" VerticalAlignment="Top"/>

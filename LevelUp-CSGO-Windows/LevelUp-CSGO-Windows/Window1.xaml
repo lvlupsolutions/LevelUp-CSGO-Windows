@@ -8,6 +8,16 @@
         Title="Level Up CS:GO" Height="720" Width="1280">
     <Grid>
         <Image Margin="0,0,0.286,0.429" Source="BG.png" Stretch="Fill"/>
-
+        <Button Margin="85,124,858.286,387.429" HorizontalAlignment="Stretch">
+            <DockPanel>
+                <Image Source="Assets/Mirage-thumb.png" Width="332" Height="184"/>
+            </DockPanel>
+        </Button>
+        <Button Margin="449,124,633.286,387.429" HorizontalAlignment="Stretch" Background="Transparent" Height="193" Width="193">
+            <DockPanel>
+                <Image Source="Assets/stats-bar.png" Width="186" Height="178"/>
+            </DockPanel>
+        </Button>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="258,424,0,0" VerticalAlignment="Top" Width="75"/>
     </Grid>
 </Window>
